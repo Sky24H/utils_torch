@@ -1,3 +1,4 @@
+# deal with the issue that torch<1.6 can't properly load checkpoint that is saved by later version.
 import torch
 
 def model_transfer(model, checkpoint_path, save_name=None):
